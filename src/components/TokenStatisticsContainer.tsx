@@ -11,7 +11,7 @@ const TokenStatisticsContainer: FunctionComponent = () => {
             <div className={styles.content}>
               <div className={styles.headingParent}>
                 <div className={styles.heading}>
-                  <span className={styles.omnicatToken}>OmniCat Token</span>
+                  <span className={styles.omnicatToken}>$OmniCat Token</span>
                   <span className={styles.statistics}> Statistics</span>
                 </div>
                 <div className={styles.link}>
