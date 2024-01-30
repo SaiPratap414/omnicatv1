@@ -5,7 +5,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import EXP from "./pages/EXP";
+import Lp from "./pages/Lp";
 
 function App() {
   const action = useNavigationType();
@@ -45,7 +45,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<EXP />} />
+      <Route path="/" element={<Lp />} />
     </Routes>
   );
 }

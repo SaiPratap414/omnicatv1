@@ -62,7 +62,7 @@
 }
 .linkParent {
   border-radius: var(--br-5xs);
-  background-color: var(--color-gray-300);
+  background-color: var(--color-gray-100);
   padding: var(--padding-5xs);
   gap: var(--gap-51xl);
   text-align: center;
@@ -76,20 +76,27 @@
   font-family: var(--font-roboto-mono);
 }
 .card,
+.card1,
 .content {
   flex-direction: column;
   align-items: flex-start;
+  justify-content: flex-start;
 }
 .content {
   align-self: stretch;
   display: flex;
-  justify-content: flex-start;
   padding: var(--padding-5xl);
   gap: var(--gap-41xl);
 }
-.card {
+.card,
+.card1 {
   flex: 1;
   border-radius: var(--br-5xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  border: 2px solid var(--color-lightsteelblue);
+}
+.card {
+  align-self: stretch;
   background: linear-gradient(
       90.2deg,
       rgba(255, 255, 255, 0.1),
@@ -101,19 +108,9 @@
       rgba(255, 255, 255, 0)
     ),
     #000;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
-  border: 2px solid var(--color-lightsteelblue);
-}
-.card,
-.card1,
-.cardParent {
-  align-self: stretch;
   display: flex;
-  justify-content: flex-start;
 }
 .card1 {
-  flex: 1;
-  border-radius: var(--br-5xs);
   background: linear-gradient(
       9.47deg,
       rgba(70, 56, 232, 0.2) 49.5%,
@@ -122,47 +119,24 @@
     linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.2)),
     linear-gradient(90.2deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)),
     #000;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
-  border: 2px solid var(--color-lightsteelblue);
-  flex-direction: column;
-  align-items: flex-start;
+}
+.card1,
+.cardParent,
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
 }
 .cardParent {
   flex-direction: row;
   align-items: center;
+  justify-content: flex-start;
   gap: var(--gap-5xl);
 }
 .frameWrapper {
-  align-self: stretch;
   border-radius: var(--br-5xs);
-  justify-content: center;
-}
-.card2,
-.frameParent,
-.frameWrapper {
-  display: flex;
   flex-direction: column;
   align-items: flex-start;
-}
-.card2 {
-  align-self: stretch;
-  flex: 1;
-  border-radius: var(--br-5xs);
-  background: linear-gradient(
-      9.47deg,
-      rgba(70, 56, 232, 0.2) 49.5%,
-      rgba(255, 255, 255, 0)
-    ),
-    linear-gradient(90.2deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)),
-    #000;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
-  border: 2px solid var(--color-lightsteelblue);
-  justify-content: flex-start;
-}
-.frameParent {
-  width: 1312px;
   justify-content: center;
-  gap: var(--gap-5xl);
   text-align: left;
   font-size: var(--font-size-5xl);
   color: var(--color-darkgray);

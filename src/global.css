@@ -1,69 +1,58 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Squada+One:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap");
 body {
   margin: 0;
   line-height: normal;
 }
 :root {
   /* fonts */
-  --chart-text: Roboto;
+  --text-small-link: Roboto;
   --font-roboto-mono: "Roboto Mono";
   --font-roboto-flex: "Roboto Flex";
-  --font-squada-one: "Squada One";
 
   /* font sizes */
-  --chart-text-size: 11px;
   --text-small-link-size: 14px;
   --text-regular-semi-bold-size: 16px;
-  --font-size-21xl: 40px;
   --font-size-5xl: 24px;
-  --font-size-53xl: 72px;
-  --font-size-xl: 20px;
   --font-size-41xl: 60px;
+  --font-size-xl: 20px;
   --font-size-13xl: 32px;
+  --font-size-21xl: 40px;
 
   /* Colors */
-  --color-gray-100: #fdfdfe;
-  --color-gray-200: #949494;
-  --color-gray-300: #191b2a;
-  --color-gray-400: rgba(0, 0, 0, 0.6);
   --white: #fff;
-  --color-darkslateblue: #373b60;
+  --color-gray-100: #191b2a;
+  --color-gray-200: #040404;
+  --color-gray-300: rgba(255, 255, 255, 0.5);
+  --color-darkgray: #a9aaab;
   --color-lightsteelblue: #ccd8f7;
   --foundation-tertiary-t200: #8bfe4d;
-  --color-darkgray: #a9aaab;
-  --color-gainsboro: #dcdddd;
 
   /* Gaps */
-  --gap-8xs: 5px;
   --gap-61xl: 80px;
   --gap-13xl: 32px;
   --gap-5xl: 24px;
   --gap-base: 16px;
-  --gap-21xl: 40px;
-  --gap-51xl: 70px;
-  --gap-41xl: 60px;
   --gap-5xs: 8px;
-  --gap-3xs: 10px;
+  --gap-41xl: 60px;
   --gap-16xl: 35px;
+  --gap-3xs: 10px;
+  --gap-51xl: 70px;
 
   /* Paddings */
-  --padding-9xl: 28px;
-  --padding-3xs: 10px;
   --padding-61xl: 80px;
   --padding-45xl: 64px;
-  --padding-21xl: 40px;
-  --padding-5xs: 8px;
-  --padding-5xl: 24px;
-  --padding-base: 16px;
-  --padding-xs: 12px;
   --padding-93xl: 112px;
   --padding-41xl: 60px;
+  --padding-xs: 12px;
+  --padding-base: 16px;
+  --padding-5xl: 24px;
+  --padding-5xs: 8px;
+  --padding-3xs: 10px;
 
   /* Border radiuses */
+  --br-1018xl: 1037px;
   --br-5xs: 8px;
   --br-13xl: 32px;
-  --br-1018xl: 1037px;
 }

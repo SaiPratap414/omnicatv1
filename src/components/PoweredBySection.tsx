@@ -39,7 +39,7 @@ const PoweredBySection: FunctionComponent = () => {
               </div>
               <div className={styles.column2}>
                 <div className={styles.vectorParent}>
-                  <img className={styles.vectorIcon} alt="" src="/vector.png" />
+                  <img className={styles.vectorIcon} alt="" src="/vector.svg" />
                   <img
                     className={styles.vectorIcon}
                     alt=""

@@ -1,0 +1,120 @@
+.omnicatIcon {
+  width: 113.3px;
+  position: relative;
+  height: 24px;
+}
+.link {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.04em;
+  line-height: 120%;
+}
+.logo {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.link1 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+.links {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  font-family: var(--text-small-link);
+}
+.vectorIcon {
+  width: 36px;
+  position: relative;
+  height: 36px;
+}
+.vectorParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.content,
+.socialLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.socialLinks {
+  flex: 1;
+  justify-content: flex-end;
+}
+.content {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.divider,
+.link6 {
+  position: relative;
+}
+.link6 {
+  letter-spacing: -0.04em;
+  line-height: 120%;
+  text-align: center;
+}
+.divider {
+  align-self: stretch;
+  background-color: var(--white);
+  height: 1px;
+}
+.link7,
+.text {
+  position: relative;
+  line-height: 150%;
+}
+.link7 {
+  text-decoration: underline;
+}
+.credits,
+.footer4,
+.row {
+  justify-content: flex-start;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+}
+.credits,
+.footer4 {
+  flex-direction: column;
+  align-items: center;
+}
+.credits {
+  width: 1312px;
+  display: none;
+  gap: var(--gap-13xl);
+  font-size: var(--text-small-link-size);
+  font-family: var(--text-small-link);
+}
+.footer4 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  padding: var(--padding-61xl) var(--padding-45xl);
+  gap: var(--gap-61xl);
+  background-image: url(/public/footer--4@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--text-regular-semi-bold-size);
+  color: var(--white);
+  font-family: var(--font-roboto-mono);
+}

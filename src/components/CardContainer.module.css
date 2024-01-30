@@ -1,18 +1,10 @@
-/* For .omniIsNow and .chains, set only text color */
 .omniIsNow {
   font-weight: 600;
   color:white /* Set text color for omniIsNow */
 }
-
 .chains {
   color: #0a7eea; /* Set text color for chains */
 }
-
-/* Add any additional styling as needed */
-/* ... */
-
-/* ... Your existing styles ... */
-
 .heading {
   position: relative;
   line-height: 100%;

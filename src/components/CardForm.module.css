@@ -1,0 +1,89 @@
+.heading {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+  background: linear-gradient(269.96deg, transparent, #00f47f), #fdfdfe;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.headingWrapper {
+  align-self: stretch;
+}
+.content,
+.contentWrapper,
+.headingWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+}
+.frameWrapper,
+.layout372Inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameWrapper {
+  width: 1312px;
+  border-radius: var(--br-5xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  justify-content: flex-start;
+}
+.layout372Inner {
+  align-self: stretch;
+  justify-content: center;
+}
+.sushiswapSushiLogoD7d611c0dIcon {
+  width: 40px;
+  position: relative;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.heading1 {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+}
+.sushiswapSushiLogoD7d611c0dParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.image4Icon,
+.image5Icon {
+  width: 40px;
+  position: relative;
+  height: 40px;
+  object-fit: cover;
+}
+.image5Icon {
+  border-radius: var(--br-1018xl);
+}
+.frameParent,
+.layout372 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-61xl);
+  font-size: var(--font-size-5xl);
+}
+.layout372 {
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-93xl) var(--padding-45xl) var(--padding-41xl);
+  text-align: left;
+  font-size: var(--font-size-41xl);
+  color: var(--color-darkgray);
+  font-family: var(--font-roboto-flex);
+}
