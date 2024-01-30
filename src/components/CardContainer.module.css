@@ -1,0 +1,308 @@
+/* For .omniIsNow and .chains, set only text color */
+.omniIsNow {
+  font-weight: 600;
+  color:white /* Set text color for omniIsNow */
+}
+
+.chains {
+  color: #0a7eea; /* Set text color for chains */
+}
+
+/* Add any additional styling as needed */
+/* ... */
+
+/* ... Your existing styles ... */
+
+.heading {
+  position: relative;
+  line-height: 100%;
+}
+.headingWrapper {
+  align-self: stretch;
+}
+.content,
+.contentWrapper,
+.frameWrapper,
+.headingWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contentWrapper,
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+}
+.frameWrapper {
+  border-radius: var(--br-5xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+}
+.logosAndSymbolsIcon {
+  width: 28.5px;
+  position: relative;
+  height: 32px;
+}
+.heading1 {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    #5582f4;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.logosAndSymbolsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.icon {
+  width: 19.6px;
+  position: relative;
+  height: 32px;
+}
+.layerX00201 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.heading2 {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    #76dbb0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.frameChild {
+  width: 27.2px;
+  position: relative;
+  height: 32px;
+}
+.heading3 {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    #e8c54a;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.simpleIconspolygon {
+  width: 32px;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heading4 {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    #a181fe;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.image3Icon {
+  width: 26px;
+  position: relative;
+  height: 27px;
+  object-fit: cover;
+}
+.heading5 {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+}
+.frameParent1,
+.frameParent2 {
+  display: flex;
+  flex-direction: row;
+}
+.frameParent2 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+}
+.frameParent1 {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+}
+.heading6 {
+  position: relative;
+  line-height: 140%;
+}
+.headingParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkgray);
+  font-family: var(--font-roboto-mono);
+}
+.content1 {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-5xl);
+  gap: var(--gap-5xl);
+}
+.card,
+.cardWrapper,
+.content1,
+.frameContainer,
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.card {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background: linear-gradient(
+      9.47deg,
+      rgba(70, 56, 232, 0.2) 49.5%,
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(90.2deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)),
+    #000;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  border: 2px solid var(--color-lightsteelblue);
+  flex-direction: column;
+  align-items: flex-start;
+}
+.cardWrapper,
+.frameContainer,
+.frameDiv {
+  flex-direction: row;
+  align-items: center;
+}
+.frameContainer,
+.frameDiv {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frameDiv {
+  border-radius: var(--br-5xs);
+}
+.frameContainer {
+  color: var(--white);
+}
+.heading7 {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    #8b89f9;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.frameWrapper1,
+.headingGroup {
+  align-self: stretch;
+  display: flex;
+}
+.headingGroup {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-roboto-mono);
+}
+.frameWrapper1 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.heading9 {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    #e088ff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-5xl);
+}
+.heading11 {
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+}
+.frameParent,
+.headingFrame,
+.layout372 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headingFrame {
+  border-radius: var(--br-5xs);
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.2)), #333;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+  font-size: var(--font-size-xl);
+  color: var(--white);
+}
+.frameParent,
+.layout372 {
+  align-self: stretch;
+  flex-direction: column;
+}
+.frameParent {
+  gap: var(--gap-41xl);
+}
+.layout372 {
+  flex: 1;
+  overflow: hidden;
+  padding: var(--padding-93xl) var(--padding-45xl) var(--padding-41xl);
+  background-image: url(/public/layout--3721@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-41xl);
+  color: var(--color-darkgray);
+  font-family: var(--font-roboto-flex);
+}

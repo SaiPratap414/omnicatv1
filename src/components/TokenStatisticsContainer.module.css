@@ -1,0 +1,99 @@
+
+.omnicatToken {
+  color: #4DCFC7; /* Set text color for omnicatToken */
+}
+
+.statistics {
+  color: #fff; /* Set text color for statistics */
+}
+
+.heading,
+.link {
+  position: relative;
+}
+.heading {
+  line-height: 140%;
+  font-weight: 600;
+}
+.link {
+  font-size: var(--text-regular-semi-bold-size);
+  letter-spacing: -0.04em;
+  line-height: 100%;
+  font-family: var(--font-roboto-mono);
+  text-align: center;
+}
+.headingParent {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+}
+.content,
+.contentWrapper,
+.headingParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+}
+.frameParent,
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameWrapper {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  justify-content: flex-start;
+}
+.frameParent {
+  height: 588px;
+  justify-content: center;
+  gap: var(--gap-41xl);
+}
+.heading1 {
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+}
+.fluentarrowCircleRight16FIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.headingGroup,
+.layout372 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headingGroup {
+  border-radius: var(--br-5xs);
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.2)), #333;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-xl);
+}
+.layout372 {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-93xl) var(--padding-45xl) var(--padding-41xl);
+  gap: var(--gap-61xl);
+  background-image: url(/public/layout--372@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-41xl);
+  color: var(--white);
+  font-family: var(--font-roboto-flex);
+}

@@ -1,0 +1,180 @@
+.playButton {
+  position: absolute;
+  top: calc(50% - 80px);
+  left: calc(50% - 100px);
+  width: 200px;
+  height: 160px;
+}
+.link {
+  position: relative;
+  letter-spacing: -0.04em;
+  line-height: 150%;
+}
+.image2Icon {
+  width: 89.1px;
+  position: relative;
+  height: 24px;
+  object-fit: cover;
+}
+.linkParent {
+  position: absolute;
+  top: 734px;
+  left: calc(50% - 94.1px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.omniIcon {
+  width: 270.5px;
+  position: relative;
+  height: 96.7px;
+}
+.omniWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.link1 {
+  position: relative;
+  letter-spacing: -0.04em;
+  line-height: 120%;
+}
+.frameParent,
+.linkWrapper {
+  display: flex;
+  align-items: center;
+}
+.linkWrapper {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.frameParent {
+  position: absolute;
+  top: calc(50% - 235.7px);
+  left: calc(50% - 163px);
+  height: 155.7px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+}
+.omnicatIcon {
+  width: 113.3px;
+  position: relative;
+  height: 24px;
+}
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.link2 {
+  position: relative;
+  line-height: 150%;
+}
+.column1 {
+  border-radius: var(--br-13xl);
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.2)), #111;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+  gap: var(--gap-13xl);
+}
+.vectorIcon {
+  width: 32px;
+  position: relative;
+  height: 32px;
+}
+.vectorParent {
+  border-radius: var(--br-13xl);
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.2)), #111;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+  gap: var(--gap-base);
+}
+.column2,
+.container,
+.navbar2 {
+  display: flex;
+  justify-content: center;
+}
+.column2 {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.container,
+.navbar2 {
+  align-items: center;
+}
+.container {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  gap: var(--gap-13xl);
+}
+.navbar2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 72px;
+  flex-direction: column;
+  padding: 0 var(--padding-45xl);
+  box-sizing: border-box;
+}
+.placeholderLightbox {
+  align-self: stretch;
+  position: relative;
+  height: 800px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Add any additional styling as needed */
+/* ... */
+
+.header14,
+.header14Wrapper {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header14 {
+  background-color: var(--white);
+  justify-content: flex-start;
+  z-index: 0;
+}
+.header14Wrapper {
+  justify-content: center;
+  text-align: left;
+  font-size: var(--text-regular-semi-bold-size);
+  color: var(--white);
+  font-family: var(--font-roboto-mono);
+}
