@@ -1,13 +1,12 @@
 .omniIsNow {
   font-weight: 600;
-  color:white /* Set text color for omniIsNow */
-}
-.chains {
-  color: #0a7eea; /* Set text color for chains */
 }
 .heading {
   position: relative;
   line-height: 100%;
+  background: linear-gradient(-90deg, transparent, #2893f6), #fdfdfe;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .headingWrapper {
   align-self: stretch;
@@ -32,7 +31,6 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  text-align: center;
 }
 .logosAndSymbolsIcon {
   width: 28.5px;
@@ -154,7 +152,6 @@
   align-items: center;
   justify-content: flex-start;
   gap: var(--gap-5xl);
-  font-size: var(--font-size-13xl);
   color: var(--color-darkgray);
   font-family: var(--font-roboto-mono);
 }
@@ -228,7 +225,6 @@
   align-items: center;
   justify-content: flex-start;
   gap: var(--gap-5xl);
-  font-size: var(--font-size-13xl);
   font-family: var(--font-roboto-mono);
 }
 .frameWrapper1 {
@@ -249,7 +245,7 @@
   -webkit-text-fill-color: transparent;
 }
 .frameGroup {
-  align-self: stretch;
+  width: 1000px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -294,7 +290,7 @@
   background-repeat: no-repeat;
   background-position: top;
   text-align: left;
-  font-size: var(--font-size-41xl);
+  font-size: var(--font-size-29xl);
   color: var(--color-darkgray);
   font-family: var(--font-roboto-flex);
 }

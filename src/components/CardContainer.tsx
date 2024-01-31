@@ -13,7 +13,7 @@ const CardContainer: FunctionComponent = () => {
                   <span
                     className={styles.omniIsNow}
                   >{`$OMNI is now live on `}</span>
-                  <b className={styles.chains}>7 CHAINS</b>
+                  <b>7 CHAINS</b>
                 </div>
               </div>
             </div>

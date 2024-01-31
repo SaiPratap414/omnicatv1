@@ -1,10 +1,3 @@
-.omnicatToken {
-  color: #4DCFC7; /* Set text color for omnicatToken */
-}
-
-.statistics {
-  color: #fff; /* Set text color for statistics */
-}
 .heading,
 .link {
   position: relative;
@@ -12,6 +5,15 @@
 .heading {
   line-height: 140%;
   font-weight: 600;
+  background: linear-gradient(
+      270deg,
+      transparent,
+      rgba(83, 223, 214, 0.99) 64%,
+      #7d54e2
+    ),
+    #fdfdfe;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .link {
   font-size: var(--text-regular-semi-bold-size);
@@ -26,41 +28,43 @@
 }
 .content,
 .contentWrapper,
+.frameWrapper,
 .headingParent {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.contentWrapper {
-  align-self: stretch;
-  flex-direction: row;
-}
-.frameGroup,
-.frameParent,
+.contentWrapper,
 .frameWrapper {
   align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: row;
 }
 .frameWrapper {
   flex: 1;
   border-radius: var(--br-5xs);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: flex-start;
 }
 .frameGroup,
 .frameParent {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 .frameGroup {
+  width: 1000px;
+  align-items: flex-start;
   gap: var(--gap-5xl);
   font-size: var(--font-size-5xl);
   color: var(--color-darkgray);
 }
 .frameParent {
+  align-self: stretch;
   height: 588px;
+  align-items: center;
   gap: var(--gap-41xl);
 }
 .heading1 {
@@ -99,7 +103,7 @@
   background-repeat: no-repeat;
   background-position: top;
   text-align: left;
-  font-size: var(--font-size-41xl);
+  font-size: var(--font-size-29xl);
   color: var(--white);
   font-family: var(--font-roboto-flex);
 }

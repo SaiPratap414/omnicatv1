@@ -15,16 +15,15 @@ body {
   --text-small-link-size: 14px;
   --text-regular-semi-bold-size: 16px;
   --font-size-5xl: 24px;
-  --font-size-41xl: 60px;
+  --font-size-29xl: 48px;
   --font-size-xl: 20px;
-  --font-size-13xl: 32px;
   --font-size-21xl: 40px;
 
   /* Colors */
   --white: #fff;
   --color-gray-100: #191b2a;
-  --color-gray-200: #040404;
-  --color-gray-300: rgba(255, 255, 255, 0.5);
+  --color-gray-300: #040404;
+  --color-gray-200: rgba(255, 255, 255, 0.5);
   --color-darkgray: #a9aaab;
   --color-lightsteelblue: #ccd8f7;
   --foundation-tertiary-t200: #8bfe4d;
