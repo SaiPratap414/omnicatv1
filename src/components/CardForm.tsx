@@ -31,11 +31,11 @@ const CardForm: FunctionComponent = () => {
           <div className={styles.heading1}>Jupiter</div>
         </div>
         <div className={styles.sushiswapSushiLogoD7d611c0dParent}>
-          <img className={styles.image5Icon} alt="" src="/Matcha.png" />
+          <img className={styles.image5Icon} alt="" src="/image-5@2x.png" />
           <div className={styles.heading1}>Matcha</div>
         </div>
         <div className={styles.sushiswapSushiLogoD7d611c0dParent}>
-          <img className={styles.image5Icon} alt="" src="/ss.png" />
+          <img className={styles.image5Icon} alt="" src="/image-5@2x.png" />
           <div className={styles.heading1}>Slingshot</div>
         </div>
         <div className={styles.sushiswapSushiLogoD7d611c0dParent}>

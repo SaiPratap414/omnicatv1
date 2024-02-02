@@ -49,7 +49,7 @@ const CardContainer1: FunctionComponent<CardContainer1Type> = ({
               <b className={styles.heading1}>{dataValue}</b>
               <div className={styles.linkParent}>
                 <div className={styles.link1}>$omni</div>
-                <img className={styles.vectorIcon} alt="" src="/vector1.svg" />
+                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
               </div>
             </div>
           </div>
@@ -68,7 +68,7 @@ const CardContainer1: FunctionComponent<CardContainer1Type> = ({
               <b className={styles.heading1}>{financialValue}</b>
               <div className={styles.linkParent}>
                 <div className={styles.link1}>$omni</div>
-                <img className={styles.vectorIcon} alt="" src="/vector1.svg" />
+                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
               </div>
             </div>
           </div>

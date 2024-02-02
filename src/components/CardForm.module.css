@@ -77,7 +77,7 @@
   font-size: var(--font-size-5xl);
 }
 .layout372 {
-  background-color: var(--color-gray-300);
+  background-color: var(--color-gray-200);
   overflow: hidden;
   flex-direction: column;
   padding: var(--padding-93xl) var(--padding-45xl) var(--padding-41xl);

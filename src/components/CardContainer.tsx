@@ -93,7 +93,7 @@ const CardContainer: FunctionComponent = () => {
                 <div className={styles.card}>
                   <div className={styles.content1}>
                     <div className={styles.frameParent1}>
-                      <div className={styles.layerX00201}>
+                      <div className={styles.frameWrapper3}>
                         <div className={styles.logosAndSymbolsParent}>
                           <div className={styles.layerX00201}>
                             <img
@@ -127,7 +127,7 @@ const CardContainer: FunctionComponent = () => {
               <div className={styles.cardWrapper}>
                 <div className={styles.card}>
                   <div className={styles.content1}>
-                    <div className={styles.frameParent1}>
+                    <div className={styles.contentWrapper}>
                       <div className={styles.layerX00201}>
                         <div className={styles.logosAndSymbolsParent}>
                           <img

@@ -22,8 +22,8 @@ body {
   /* Colors */
   --white: #fff;
   --color-gray-100: #191b2a;
-  --color-gray-300: #040404;
-  --color-gray-200: rgba(255, 255, 255, 0.5);
+  --color-gray-200: #040404;
+  --color-gray-300: rgba(255, 255, 255, 0.5);
   --color-darkgray: #a9aaab;
   --color-lightsteelblue: #ccd8f7;
   --foundation-tertiary-t200: #8bfe4d;
