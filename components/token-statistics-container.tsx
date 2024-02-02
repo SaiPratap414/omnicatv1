@@ -1,8 +1,8 @@
-import { FunctionComponent } from "react";
-import CardContainer1 from "./CardContainer1";
-import styles from "./TokenStatisticsContainer.module.css";
+import type { NextPage } from "next";
+import CardContainer1 from "./card-container1";
+import styles from "./token-statistics-container.module.css";
 
-const TokenStatisticsContainer: FunctionComponent = () => {
+const TokenStatisticsContainer: NextPage = () => {
   return (
     <div className={styles.layout372}>
       <div className={styles.frameParent}>

@@ -1,7 +1,7 @@
-import { FunctionComponent } from "react";
-import styles from "./PoweredBySection.module.css";
+import type { NextPage } from "next";
+import styles from "./powered-by-section.module.css";
 
-const PoweredBySection: FunctionComponent = () => {
+const PoweredBySection: NextPage = () => {
   return (
     <div className={styles.header14Wrapper}>
       <div className={styles.header14}>
@@ -30,11 +30,10 @@ const PoweredBySection: FunctionComponent = () => {
           </div>
           <div className={styles.column1}>
             <div className={styles.link2}>Mission</div>
-            <div className={styles.link2}>
-            <a href="https://exp-terminal.vercel.app/" target="_blank" rel="noopener noreferrer">
-              Terminal
-            </a>
-          </div>
+            <a href="https://exp-terminal.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none', cursor: 'pointer' }}>
+  Terminal
+</a>
+
             <div className={styles.link2}>Ecosystem</div>
             <div className={styles.link2}>Statistics</div>
           </div>

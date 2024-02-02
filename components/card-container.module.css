@@ -292,7 +292,7 @@
   flex: 1;
   overflow: hidden;
   padding: var(--padding-93xl) var(--padding-45xl) var(--padding-41xl);
-  background-image: url(/public/layout--3721@3x.png);
+  background-image: url(/layout--3721@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;

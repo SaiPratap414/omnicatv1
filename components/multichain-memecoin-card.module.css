@@ -109,7 +109,7 @@
   display: flex;
   padding: var(--padding-61xl) var(--padding-45xl);
   gap: var(--gap-61xl);
-  background-image: url(/public/footer--4@3x.png);
+  background-image: url(/footer--4@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;

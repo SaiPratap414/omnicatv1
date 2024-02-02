@@ -1,7 +1,7 @@
-import { FunctionComponent } from "react";
-import styles from "./CardForm.module.css";
+import type { NextPage } from "next";
+import styles from "./card-form.module.css";
 
-const CardForm: FunctionComponent = () => {
+const CardForm: NextPage = () => {
   return (
     <div className={styles.layout372}>
       <div className={styles.layout372Inner}>

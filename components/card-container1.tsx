@@ -1,5 +1,6 @@
-import { FunctionComponent, useMemo, type CSSProperties } from "react";
-import styles from "./CardContainer1.module.css";
+import type { NextPage } from "next";
+import { useMemo, type CSSProperties } from "react";
+import styles from "./card-container1.module.css";
 
 type CardContainer1Type = {
   statisticLabel?: string;
@@ -12,7 +13,7 @@ type CardContainer1Type = {
   propBackground1?: CSSProperties["background"];
 };
 
-const CardContainer1: FunctionComponent<CardContainer1Type> = ({
+const CardContainer1: NextPage<CardContainer1Type> = ({
   statisticLabel,
   dataValue,
   statisticLabel2,

@@ -157,8 +157,3 @@
   color: var(--white);
   font-family: var(--font-roboto-mono);
 }
-.link2 a {
-  color: white; /* or specify your desired color */
-  text-decoration: none;
-  cursor: pointer;
-}

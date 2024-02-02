@@ -1,7 +1,7 @@
-import { FunctionComponent } from "react";
-import styles from "./MultichainMemecoinCard.module.css";
+import type { NextPage } from "next";
+import styles from "./multichain-memecoin-card.module.css";
 
-const MultichainMemecoinCard: FunctionComponent = () => {
+const MultichainMemecoinCard: NextPage = () => {
   return (
     <div className={styles.footer4}>
       <div className={styles.content}>
